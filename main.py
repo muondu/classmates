@@ -15,7 +15,7 @@ def updating_table():
             continue
         elif continu_e == "N" or continu_e == "n":
             print("Thank you.")
-            print("You did not chose an option above!")
+#            print("You did not chose an option above!")
             c.execute("INSERT INTO name(name) VALUES(?)",(name1,))
             conn.commit()
             print("Prossed nicely")
